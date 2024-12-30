@@ -46,8 +46,10 @@ local function checkForPlayerInfection()
     local isInfected = bodyDamage:isInfected()
 
     if isInfected then
+        print("BiteAlarm rolling to trigger")
         local chance = ZombRand(1) -- 50% chance
         if chance == 0 then 
+            print("BiteAlarm!")
             if infectionLevel >= 90 then -- fever
                 player:Say(getRandomPhrase(PHRASES_HIGHEST))
             elseif infectionLevel >= 75 then -- sick
@@ -64,7 +66,7 @@ local function checkForPlayerInfection()
 end
 
 Events.OnGameStart.Add(function()
-    print('------- INITIALISING BITE ALARM ------')
+    print("------- INITIALISING BITE ALARM ------")
     -- Events.EveryOneMinute.Add(checkForPlayerInfection)
     -- Events.EveryTenMinutes.Add(checkForPlayerInfection)
     Events.EveryHours.Add(checkForPlayerInfection)
