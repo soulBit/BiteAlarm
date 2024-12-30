@@ -1,0 +1,9 @@
+id=biteAlarm
+name=Bite Alarm
+poster=poster.png
+description=Bite Alarm
+modversion=42.0-1
+pzversion=42
+versionMin=41.60
+author=soulBit
+url=https://github.com/soulBit/BiteAlarm
