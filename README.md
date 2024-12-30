@@ -1,5 +1,7 @@
 # BiteAlarm
 
+![image](poster.png)
+
 Bite Alarm mod for Project Zomboid B41+
 
 ## Description
