@@ -1,0 +1,28 @@
+--- SUS BITE ALARM ---
+IGUI_EN = {
+    IGUI_Alarm_Lowest_1 = "Dangit, that hurt more than I thought.",
+    IGUI_Alarm_Lowest_2 = "Ouch, better clean my wound.",
+    IGUI_Alarm_Lowest_3 = "Bit cold out today isn't it.",
+    IGUI_Alarm_Lowest_4 = "Feeling worse for wear."   
+
+    IGUI_Alarm_Low_1 = "Maybe I ate something bad?",
+    IGUI_Alarm_Low_2 = "Damn zombies. Always sticking their teeth in where they don't belong.",
+    IGUI_Alarm_Low_3 = "My head hurts.",
+    IGUI_Alarm_Low_4 = "No se siente bien",
+    IGUI_Alarm_Low_5 = "Better get that seen to."
+
+    IGUI_Alarm_Medium_1 = "Yeah I'm really not feeling good at all.",
+    IGUI_Alarm_Medium_2 = "Beads of sweat on my forehead.",
+    IGUI_Alarm_Medium_3 = "*cough*"
+
+    IGUI_Alarm_High_1 = "Sweat is dripping down my face right now.",
+    IGUI_Alarm_High_2 = "I'm shaking.",
+    IGUI_Alarm_High_3 = "I'm going to go and lie down for a bit.",
+    IGUI_Alarm_High_4 = "Time for a rest."
+
+    IGUI_Alarm_Highest_1 = "Someone hold me.",
+    IGUI_Alarm_Highest_2 = "Remember me.",
+    IGUI_Alarm_Highest_3 = "Tell my mother I love her.",
+    IGUI_Alarm_Highest_4 = "Don't let them get you!",
+    IGUI_Alarm_Highest_5 = "Nope nothing wrong at all, I'm perfectly fine. Yep *grimace*"
+}
